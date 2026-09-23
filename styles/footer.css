@@ -1,0 +1,26 @@
+/**
+ * TODO custom variables
+ * TODO skalanlegt
+ */
+
+footer {
+  display: flex;
+  justify-content: center;
+
+  padding: 20px;
+  border-top: 2px solid var(--color-border);
+  background-color: var(--color-background-alt);
+  text-align: center;
+}
+
+footer .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 800px;
+}
+
+footer ul {
+  list-style: none;
+}

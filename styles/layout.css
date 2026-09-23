@@ -1,0 +1,21 @@
+/**
+ * TODO custom variables
+ * TODO skipta yfir í grid
+ */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  margin-top: 10px;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  max-width: 1000px;
+}

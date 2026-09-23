@@ -1,0 +1,25 @@
+{
+  "name": "verkefni3",
+  "version": "0.0.2",
+  "description": "Þetta er verkefni 3 í vefforritun, ég er að læra á node.js og git.",
+  "keywords": [
+    "vefforitun",
+    "node.js",
+    "responsive"
+  ],
+  "homepage": "https://github.com/thorvaldurhrafn/verkefni-3#readme",
+  "bugs": {
+    "url": "https://github.com/thorvaldurhrafn/verkefni-3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorvaldurhrafn/verkefni-3.git"
+  },
+  "license": "ISC",
+  "author": "Þorvaldur Hrafn",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "start-verkefni3"
+  }
+}
