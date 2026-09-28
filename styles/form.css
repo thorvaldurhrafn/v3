@@ -9,7 +9,7 @@ form {
   flex-wrap: wrap;
   gap: var(--gap);
 
-  width: 50%;
+  width: var(--halfwidth);
 }
 
 fieldset {
@@ -22,7 +22,7 @@ fieldset legend {
 }
 
 fieldset div {
-  width: 100%;
+  width: var(--fullwidth);
   margin-bottom: var(--gap);
 }
 
@@ -34,7 +34,7 @@ fieldset input,
 fieldset select,
 fieldset textarea {
   padding: 10px;
-  width: 100%;
+  width: var(--fullwidth);
   border: 1px solid var(--color-border);
 
   background-color: var(--color-background-pure);

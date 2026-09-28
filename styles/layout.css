@@ -16,6 +16,6 @@ main {
   margin: 0 auto;
   padding-left: var(--gap);
   padding-right: var(--gap);
-  width: 100%;
-  max-width: 1000px;
+  width: var(--fullwidth);
+  max-width: var(--max-width);
 }

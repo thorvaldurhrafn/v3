@@ -31,7 +31,7 @@
 .card .image img {
   display: block;
 
-  width: 100%;
+  width: var(--fullwidth);
   height: 300px;
   object-fit: cover;
   object-position: 50% 50%;

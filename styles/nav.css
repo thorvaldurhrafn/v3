@@ -11,7 +11,7 @@ nav {
   z-index: 10;
 
   overflow: hidden;
-
+  width: var(--fullwidth); 
   padding: 10px 10px var(--gap);
   background-color: var(--color-background);
   border-bottom: 2px solid var(--color-border);
@@ -22,7 +22,7 @@ nav ul {
   gap: var(--gap);
   justify-content: center;
 
-  width: 100%;
+  width: var(--fullwidth);
   overflow: auto;
 
   list-style: none;

@@ -23,7 +23,7 @@ html::before {
   position: absolute;
   inset: 0;
   z-index: 1000;
-  width: calc(100% - (2 * var(--offset)));
+  width: calc(var(--fullwidth) - (2 * var(--offset)));
   max-width: var(--max-width);
   min-height: 100vh;
   margin-right: auto;
@@ -31,5 +31,5 @@ html::before {
   pointer-events: none;
   content: '';
   background-image: var(--grid-background-columns);
-  background-size: var(--grid-background-width) 100%;
+  background-size: var(--grid-background-width) var(--fullwidth);
 }
