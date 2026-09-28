@@ -10,7 +10,8 @@
   /* Grunnletur */
   --font-family-base: inter, helvetica, arial, sans-serif;
   --font-size-base: 16px;
-
+  /* Takkar */
+  --font-size-button: 1rem;
   /* Haus síðu, stærri á stærri skjám. */
   --font-size-header: 2rem;
   --font-size-header-large: 3.25rem;
@@ -40,7 +41,7 @@
   --offset: 20px;
 
   /** Breiddir **/
-
+  --gap: 20px;
   /* Hámarksbreidd efnis */
   --max-width: 1100px;
 

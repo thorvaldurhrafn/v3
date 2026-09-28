@@ -7,7 +7,7 @@ footer {
   display: flex;
   justify-content: center;
 
-  padding: 20px;
+  padding: var(--gap);
   border-top: 2px solid var(--color-border);
   background-color: var(--color-background-alt);
   text-align: center;
@@ -16,7 +16,7 @@ footer {
 footer .content {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: var(--gap);
   justify-content: center;
   max-width: 800px;
 }

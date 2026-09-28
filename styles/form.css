@@ -7,7 +7,7 @@ form {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: var(--gap);
 
   width: 50%;
 }
@@ -18,12 +18,12 @@ fieldset {
 
 fieldset legend {
   margin-bottom: 10px;
-  font-size: 1.5rem;
+  font-size: var(--font-size-legend);
 }
 
 fieldset div {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: var(--gap);
 }
 
 fieldset div label {
