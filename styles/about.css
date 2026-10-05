@@ -1,0 +1,7 @@
+main img {
+    grid-column: span 1;
+    gap: var(--spacing-double);
+    width: var(--fullwidth);
+    object-fit: cover;
+    object-position: 50% 50%;
+}

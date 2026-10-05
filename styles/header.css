@@ -8,5 +8,11 @@ header {
 }
 
 header h1 {
-  font-size: var(--font-size-header-large);
+  font-size: var(--font-size-header);
+}
+
+@media (width > 700px) {
+  header h1 {
+    font-size: var(--font-size-header-large);
+  }
 }

@@ -9,10 +9,9 @@ nav {
   top: 0;
   left: 0;
   z-index: 10;
-
-  overflow: hidden;
-  width: var(--fullwidth); 
+  width: var(--fullwidth);
   padding: 10px 10px var(--gap);
+  overflow: hidden;
   background-color: var(--color-background);
   border-bottom: 2px solid var(--color-border);
 }
@@ -21,15 +20,13 @@ nav ul {
   display: flex;
   gap: var(--gap);
   justify-content: center;
-
   width: var(--fullwidth);
   overflow: auto;
-
   list-style: none;
 }
 
 nav ul li {
-  font-size: var(--font-size-nav-large);
+  font-size: var(--font-size-nav-small);
 }
 
 nav a {
@@ -44,4 +41,16 @@ nav a:focus {
 nav strong {
   font-weight: 500;
   text-decoration: underline;
+}
+
+@media (width > 425px) {
+  nav ul li {
+    font-size: var(--font-size-nav);
+  }
+}
+
+@media (width > 528px) {
+  nav ul li {
+    font-size: var(--font-size-nav-large);
+  }
 }

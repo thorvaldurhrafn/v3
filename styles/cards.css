@@ -5,34 +5,43 @@
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  gap: var(--spacing-double);
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  gap: var(--gap);
-  width: 100%;
-  max-width: calc(50% - var(--gap));
+  grid-column: span var(--columns);
+  gap: var(--spacing-double);
+  width: var(--fullwidth);
+}
+
+
+@media (width >= 700px) {
+  .card {
+    grid-column: span calc(var(--columns) / 2);
+  }
 }
 
 .card h2 {
   flex: 1;
+
+  /* height: 2.3rem; */
   font-size: var(--font-size-card-title);
 }
 
 .card .content {
   display: flex;
-  gap: var(--gap);
   flex-direction: column;
+  gap: var(--spacing-double);
 }
 
 .card .image img {
   display: block;
-
   width: var(--fullwidth);
   height: 300px;
-  object-fit: cover;
+
+  /* object-fit: cover; */
   object-position: 50% 50%;
 }

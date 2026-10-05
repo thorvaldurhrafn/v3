@@ -1,0 +1,34 @@
+table th, table td {
+    padding: var(--spacing-half);
+    text-align: left;
+    
+
+}
+
+
+table {
+    min-width: 300px;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+
+.table-wrapper {
+    overflow:hidden;
+    
+}
+
+
+tr:nth-child(odd) {
+background-color: var(--color-table-stripe);
+}
+
+
+
+@media (width >= 900px) {
+    .table-wrapper {
+        overflow:visible;
+        
+  }
+    
+}

@@ -6,16 +6,15 @@
 footer {
   display: flex;
   justify-content: center;
-
   padding: var(--gap);
-  border-top: 2px solid var(--color-border);
-  background-color: var(--color-background-alt);
   text-align: center;
+  background-color: var(--color-background-alt);
+  border-top: 2px solid var(--color-border);
 }
 
 footer .content {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: nowrap column;
   gap: var(--gap);
   justify-content: center;
   max-width: var(--max-width-footer);
@@ -23,4 +22,10 @@ footer .content {
 
 footer ul {
   list-style: none;
+}
+
+@media (width>700px) {
+  footer .content {
+    flex-flow: wrap row;
+  }
 }

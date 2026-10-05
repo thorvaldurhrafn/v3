@@ -21,5 +21,7 @@
 @import url('./styles/footer.css');
 @import url('./styles/cards.css');
 @import url('./styles/form.css');
+@import url('./styles/about.css');
 
 /* ATH vantar stíla fyrir texta og töflur—þurfið að útbúa skrá sjálf! */
+@import url('./styles/table.css');

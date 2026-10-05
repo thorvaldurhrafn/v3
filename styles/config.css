@@ -10,13 +10,18 @@
   /* Grunnletur */
   --font-family-base: inter, helvetica, arial, sans-serif;
   --font-size-base: 16px;
+  --font-size-small: 12px;
+
   /* Takkar */
   --font-size-button: 1rem;
+
   /* Haus síðu, stærri á stærri skjám. */
+
   --font-size-header: 2rem;
   --font-size-header-large: 3.25rem;
 
   /* Valmynd, stærri á stærri skjám. */
+  --font-size-nav-small: 1rem;
   --font-size-nav: 1.125rem;
   --font-size-nav-large: 1.5rem;
 
@@ -44,15 +49,21 @@
   --fullwidth: 100%;
   --halfwidth: 50%;
   --gap: 20px;
+
   /* Hámarksbreidd efnis */
   --max-width: 1100px;
   --max-width-footer: 800px;
+
   /* Lágmarksbreidd á töflu */
   --min-width-table: 700px;
+  --min-width-min: 588px;
+
+
 
   /* Breidd á efni með offset, sú breidd sem meginmál þarf að vera þegar við
   höfum minna pláss en --max-width í vafra */
   --width-offset: calc(100% - (2 * var(--offset)));
+  --width-offset-but-a-little-less-extreme: calc(100% - (0.75 * var(--offset)));
 
   /** Litir **/
 
@@ -62,7 +73,6 @@
   --color-background-alt: #996644;
   --color-text: #000000;
   --color-border: #000000;
-  
 
   /* Aðrir litir með lýsandi nöfnum. */
   --color-accent: #996644;

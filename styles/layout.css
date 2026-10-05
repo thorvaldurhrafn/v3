@@ -3,19 +3,16 @@
  * TODO skipta yfir í grid
  */
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-
-  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: var(--spacing-triple);
   min-height: 100vh;
+  margin-top: var(--spacing);
 }
 
 main {
   flex: 1;
-  margin: 0 auto;
-  padding-left: var(--gap);
-  padding-right: var(--gap);
-  width: var(--fullwidth);
+  width: var(--width-offset);
   max-width: var(--max-width);
+  margin: 0 auto;
 }
